@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Contact Details</title>
 </head>
 <body>
-
+	<h2>Your Message Added Successfully!</h2>
 </body>
 </html>
