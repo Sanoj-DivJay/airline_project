@@ -21,5 +21,18 @@ public class contactus
 	       Logger.getLogger(contactus.class.getName()).log(Level.SEVERE,null,ex);  
 	    }
 	    }
-	    
-	}
+	
+	 //connecting into the database
+		private void connectToDb()
+		{
+        String url="jdbc:mysql://localhost:3306/contact?useSSL=false";
+        try{
+        Class.forName("com.mysql.cj.jdbc.Driver");
+        Connection con = DriverManager.getConnection(url,"root","");
+            st = con.createStatement();
+        }catch(ClassNotFoundException | SQLException ex)
+        {
+            Logger.getLogger(contactus.class.getName()).log(Level.SEVERE,null,ex);        
+        }
+    }
+}
