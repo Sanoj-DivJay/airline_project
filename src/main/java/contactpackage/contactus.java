@@ -12,3 +12,14 @@ public class contactus
 	Statement st;
 	public void addcontactus(String name, String email, String message) throws SQLException
 	{
+		connectToDb();
+	    String query="INSERT INTO contactus(Your Name,Your E-mail,Your Message) VALUES('"+name+"','"+email+"','"+message+"')";
+	    try
+	    {
+	    st.executeUpdate(query);
+	    }catch (SQLException ex){
+	       Logger.getLogger(contactus.class.getName()).log(Level.SEVERE,null,ex);  
+	    }
+	    }
+	    
+	}
