@@ -1,5 +1,41 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@page import  = "jakarta.servlet.http.Cookie"%>
+ <%@page import  = "java.io.PrintWriter"%>
+ <%@page import="model.dbconnect"%>
+ <%@page import="model.cookieverify"%>
+<h2><%             
+Cookie[] ck = request.getCookies();
+String uname = "none";
+cookieverify obj=new cookieverify();
+                    
+                            
+                            
+                    
+                            //response.setContentType("text/html");
+                            //PrintWriter out =response.getWriter();
+        
+                            //Cookie[] ck = request.getCookies();
+                            //String name=ck[0].getValue();
+                            //out.print("Welcome "+name);
+
+                            //String uname = "none";
+                      
+                    if(!(request.getCookies()==null))
+                    {
+                    out.print(obj.verifyindex(request, response));
+                   
+                    
+                    uname = "none";
+                        for (Cookie aCookie : ck) {
+                            String names = aCookie.getName();
+ 
+                        if (names.equals("uname")) {
+                            uname = aCookie.getValue();
+                              break;
+                                }       }}
+                         if(uname=="none"){response.sendRedirect("index.jsp");}       
+                      
+                            
+      %></h2> 
 <!DOCTYPE html>
 <html>
 <head>
