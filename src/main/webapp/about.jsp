@@ -90,6 +90,11 @@
       <div class="story"> 
       <p>To facilitate through strategic planning and effective regulation, the operation of a safe, secure and efficient national civil aviation industry that conforms to International Standards and Recommended Practices. fulfillment of the State’s international obligations in the field of civil aviation and constant implementation and enforcement of International Standards and Recommended Practices registering very high level of effective implementation of SARPS.</p></div>
     </div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="assets/img/geo.png">
+      </div>
+      <h3>GEO Trust</h3>
 
 
 
