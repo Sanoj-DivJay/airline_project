@@ -24,3 +24,23 @@ body{
 	justify-content:center;
 	align-items:center;
 }
+
+.contact-info{
+	color:#00264d;
+	max-width:500px;
+	line-height:65px;
+	padding-left:40px;
+	font-size:18px;
+}
+
+.contact-info i{
+	margin-right:20px;
+	font-size:25px;
+}
+
+.contact-info p{
+	color:  #33001a;
+	text-align:justify;
+	font-size:14px;
+	line-height: 3.0;
+}	
