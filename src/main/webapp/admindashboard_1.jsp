@@ -94,6 +94,88 @@ cookieverify obj=new cookieverify();
 
       </ul>
   </div>
+   <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class='bx bx-search' ></i>
+      </div>
+      <div class="profile-details">
+        <img src="assets/images/profile.jpg" alt="">
+        <span class="admin_name"><%out.print(uname);%></span>
+        <i class='bx bx-chevron-down' ></i>
+      </div>
+    </nav>
+        
+    <div class="home-content">
+      <div class="overview-boxes">
+        <div class="box">
+          <div class="right-side">
+               <div class="box-topic">Total G1 Staff Members</div>
+            <div class="number">
+                <%
+                dbconnect obje =new dbconnect();
+                String G1empcount=obje.G1empcount();
+                out.print(G1empcount);
+                %>
+            </div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Up from now</span>
+            </div>
+          </div>
+          <i class='bx bx-cart-alt cart'></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Bookings</div>
+            <div class="number">
+            <%
+                String flightbookcount=obje.flightbookcount();
+                out.print(flightbookcount);
+                %>
+            </div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Up from now</span>
+            </div>
+          </div>
+          <i class='bx bxs-cart-add cart two' ></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Users</div>
+            <div class="number"><%
+                String usercount=obje.usercount();
+                out.print(usercount);
+                %></div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Up from now</span>
+            </div>
+          </div>
+          <i class='bx bx-cart cart three' ></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total G2 Staff Members</div>
+            <div class="number"><%
+                String G2empcount=obje.G2empcount();
+                out.print(G2empcount);
+                %></div>
+            <div class="indicator">
+              <i class='bx bx-down-arrow-alt down'></i>
+              <span class="text">Up from now</span>
+            </div>
+          </div>
+          <i class='bx bxs-cart-download cart four' ></i>
+        </div>
+      </div>
+      
    
    
 
