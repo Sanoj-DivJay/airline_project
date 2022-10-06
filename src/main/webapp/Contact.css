@@ -76,4 +76,22 @@ body{
 	font-size:16px;
 	margin-bottom:30px;
 }	
-	
+
+.contact-form .text-box{
+	background:#000;
+	color: #404040;
+	border:none;
+	width: calc(50% - 10px);
+	height:40px;
+	padding: 15px;
+	font-size:15px;
+	border-radius:5px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	margin-bottom:30px;
+	opacity:0.5;
+	border-style:rounded;
+}
+
+.contact-form .text-box:first-child{
+	margin-right:15px;	
+}	
