@@ -13,5 +13,11 @@
 		<div class="contact-info">
 		<h1>Contact Us...</h1>
 		
+		<p>Currently we don't operate a physical location <br>where customers could visit due to covid situation<br> and we also don't accept cash Payments..</p>
+			<div><i class="fa fa-map-marker-alt"></i>Phoenix Airline PVT,Colombo</div> 
+			<div><i class="fa fa-phone"></i>+94 332 236 671</div>
+			<div><i class="fa fa-envelope"></i>flights@phoenixAirline.com</div>
+		</div>
+		
 </body>
 </html>
