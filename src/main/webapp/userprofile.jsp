@@ -237,5 +237,16 @@ String emaill="";
 
  <script src="assets/js/VerticalTabs.js"> </script>
  
+ 
+ 
+ 
+  
+ <!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="assets/js/js_home.js"></script>
+ 
+ 
 </body>
 </html>
