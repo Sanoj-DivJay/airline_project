@@ -176,6 +176,44 @@ cookieverify obj=new cookieverify();
         </div>
       </div>
       
+      <div class="sales-boxes">
+        <div class="recent-sales box">
+          <div class="title">Flights</div>
+<%@page import="java.io.PrintWriter"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="java.util.List"%>
+          <%
+              
+        //PrintWriter out=response.getWriter();  
+        //out.println("<a href='index.html'>Add Employee</a>");  
+        out.println("<br>");  
+          
+        List<model.flightbookingbeans> list=model.dbconnect.getAllBookings();  
+          
+        out.print("<table border='1' width='100%'");  
+        out.print("<tr><th>Uname</th><th>Trip Method</th><th>fullname</th><th>Passport ID</th><th>Email</th><th>departure</th><th>arrival</th><th>departure_date</th><th>return_date</th><th>classtype</th><th>adult</th><th>child</th><th></th>");  
+        for(model.flightbookingbeans e:list){  
+         out.print("<tr><td>"+"&nbsp "+e.getuname()+"</td><td>"+"&nbsp"+e.gettripmethod()+"</td><td>"+"&nbsp"+e.getfullname()+"</td><td>"+"&nbsp"+e.getpassportid()+"</td><td>"+"&nbsp"+e.getemail()+"</td><td>"+"&nbsp"+e.getdeparture()+"</td><td>"+"&nbsp"+e.getarrival()+"</td><td>"+"&nbsp"+e.getdeparturedate()+"</td><td>"+"&nbsp"+e.getreturndate()+"</td><td>"+"&nbsp"+e.getclasstype()+"</td><td>"+"&nbsp"+e.getadult()+"</td><td>"+"&nbsp"+e.getchild()+"</td> </tr>");  
+        }
+        /*<td> <form action='./paymentmailservlet' method='post'><input type='hidden' name='uname' value="+c.getroomuname()+"><input type='text' name='amount' value='Amount'> <input type='submit' value='Send Payment Notification'>  </form></td><td><form action='./delrooms' method='post'><input type='hidden' name='delrooms' value="+c.getroomno()+"> <input type='submit' value='Check-out'>  </form></td>*/
+        
+        out.print("</table>");  
+          
+        out.close(); 
+          %>
+          <div class="button">
+            <a href="#">See All</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+</body>
+</html>
+      
    
    
 
