@@ -6,6 +6,9 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * Servlet implementation class ContactServlet
@@ -37,6 +40,16 @@ public class ContactServlet extends HttpServlet {
 			String name  =request.getParameter("Your Name");
 			String email = request.getParameter("Your E-mail");
 			String message = request.getParameter("Your Message");
-	}
-
+			
+			contactus c = new contactus();
+			try {
+				c.addcontactus(name,email,message);	
+			}catch(SQLException ex) {
+				//Logger.getLogger(contactus.class.getName()).log(Level.SEVERE,null,ex);  
+				  Logger.getLogger(contactus.class.getName()).log(Level.SEVERE,null,ex);
+			}
+			response.sendRedirect("DisplayResults.jsp");
+					//doGet(request, response);
+		}
 }
+
