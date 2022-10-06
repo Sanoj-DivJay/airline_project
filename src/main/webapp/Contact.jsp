@@ -19,5 +19,17 @@
 			<div><i class="fa fa-envelope"></i>flights@phoenixAirline.com</div>
 		</div>
 		
+		<div class="contact-form">
+				<h2>Write to Us...</h2>
+				<p>Let us know what you need help for and Our executive will be right on it to help you....</p>
+				<form class="contact" action="ContactServlet" method="POST">
+					<input type="text" name="name" class="text-box" placeholder="Your Name" required>
+					<input type="text" name="email" class="text-box" placeholder="Your E-mail" required>
+					<textarea name="message" rows="5" cols="80" placeholder="Your Message" required ></textarea>
+					<input type="submit" name="submit" class="send-btn" value="Send">
+				</form>
+		</div>
+		</div>
+		
 </body>
 </html>
