@@ -42,7 +42,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Flights</a></li>
-          <li><a class="nav-link   scrollto" href="#Contact.jsp">Contact</a></li>
+          <li><a class="nav-link   scrollto" href="Contact.jsp">Contact</a></li>
           <li class="dropdown"><a href="#"><span>My Account</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li class="dropdown"><a href="#"><span>Login</span> <i class="bi bi-chevron-right"></i></a>
