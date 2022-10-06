@@ -95,6 +95,12 @@
         <img src="assets/img/geo.png">
       </div>
       <h3>GEO Trust</h3>
+      <div class="story"> 
+      <p>GeoTrust is one of the leading digital certificate provider, assuring the security of any e-commerce business. These certificates ensures the identity of business entities and/or individuals in online transactions.
+
+        Findmyfare.com adopted the GeoTrust to ensure the security of personal details (names, telephone numbers, email addresses) of its customers. The security system allows the data to be encrypted with highest quality encryption algorithms.</p>
+    </div>
+    </div>
 
 
 
