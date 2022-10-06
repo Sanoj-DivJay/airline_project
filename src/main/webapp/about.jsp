@@ -101,9 +101,22 @@
         Findmyfare.com adopted the GeoTrust to ensure the security of personal details (names, telephone numbers, email addresses) of its customers. The security system allows the data to be encrypted with highest quality encryption algorithms.</p>
     </div>
     </div>
+</div>	
+</section>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
+   
 
-
+ 
 
 
 
