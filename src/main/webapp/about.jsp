@@ -48,7 +48,23 @@
             <h3>Best website</h3>
             <a href="https://www.01awards.lk/"  target="_blank" class="btn">Read /More</a>
         </div>
-        
+           <div class="box3">
+            <img src="assets/img/award2.png">
+            <h3>Best Digital Enabled Project</h3>
+            <a href="https://www.01awards.lk/"  target="_blank" class="btn">Read More</a>
+        </div>
+
+        <div class="box3">
+            <img src="assets/img/award3.png">
+            <h3>Leading Travel Technology</h3>
+            <a href="https://www.southasiantravelawards.com/categories"  target="_blank" class="btn">Read More</a>
+        </div>
+
+       
+
+    </div>
+
+</div>
     
 
 
