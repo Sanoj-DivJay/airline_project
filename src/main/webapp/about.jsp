@@ -65,6 +65,19 @@
     </div>
 
 </div>
+        
+<section>
+<div class="wrapper1">
+  <h1>WE ARE CERTIFIED BY</h1>
+  <div class="team">
+    <div class="team_member">
+      <div class="team_img">
+       <img src="assets/img/iata.png">
+      </div>
+      <h3>International Air Transport Association</h3>
+      <div class="story">  
+       <p>IATA is the leader and regulator of world airline industry. Apart from keeping the industry fare and competitive, the entity credits travel agents with professional credentials. This also ensures protection of travelers. Any ticket purchase through IATA accredited agents are vouched by IATA itself. IATA Accreditation validates our reliability, professionalism and quality. It also ensures the authenticity of every purchase and prioritizes consumer protection.</p>
+      </div>
     
 
 
