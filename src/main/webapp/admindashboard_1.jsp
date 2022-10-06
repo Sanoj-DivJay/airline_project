@@ -37,12 +37,18 @@ cookieverify obj=new cookieverify();
                             
       %></h2> 
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="assets/css/rooms.css">
+    <link rel="stylesheet" href="assets/css/table.css">
+   
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+ <body>
+   
+   
 
 </body>
 </html>
