@@ -47,6 +47,53 @@ cookieverify obj=new cookieverify();
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
  <body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus'></i>
+      <span class="logo_name">Phoenix <br>Airline</span>
+    </div>
+       <ul class="nav-links">
+        <li>
+          <a href="adminsdashboard.jsp" >
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Register Staff Details</span>
+          </a>
+        <li>
+          <a href="admindashuserdetails.jsp">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name">User Details</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="admindashboard_1.jsp" class="active">
+            <i class='bx bx-box' ></i>
+            <span class="links_name">Booking Details</span>
+          </a>
+        </li>
+         
+ <li>
+           <a href="admindashstaffdetails01.jsp" >
+            <i class='bx bx-pie-chart-alt-2'  ></i>
+            <span class="links_name">Grade 01 Staff Details</span>
+          </a>
+        </li>
+         <li>
+               <a href="admindashstaffdetails02.jsp">
+            <i class='bx bx-box' ></i>
+            <span class="links_name"> Grade 02 Staff Details</span>
+          </a>
+        </li>
+        
+      <li class="">
+          <a href="index.jsp">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Home</span>
+          </a>
+        </li>
+
+      </ul>
+  </div>
    
    
 
