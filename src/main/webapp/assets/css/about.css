@@ -360,4 +360,86 @@ img{
     line-height: 30px;
     font-weight: 400;
 }
+
+
+
+/*AWARDS AND RECOGNITIONS*/
+
+
+
+.container9{
+    background:linear-gradient(45deg, blueviolet, lightgreen);
+    padding:15px 9%;
+    padding-bottom: 100px;
+}
+
+.container9 .head{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 80px;
+}
+.container9 .heading4{
+    text-align: center;
+    padding-bottom: 20px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 40px;
+}
+
+.container9 .box-container3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.container9 .box-container3 .box3{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:30px 20px;
+}
+
+.container9 .box-container3 .box3 img{
+    height: 80px;
+    width: 250px;
+  
+}
+
+.container9 .box-container3 .box3 h3{
+    color:#444;
+    font-size: 35px;
+    padding:10px 0;
+}
+
+
+
+.container9 .box-container3 .box3 .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:rgb(0, 0, 0);
+    color:#fff;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container9 .box-container3 .box3 .btn:hover{
+    letter-spacing: 1px;
+}
+
+.container9 .box-container3 .box3:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px){
+    .container9{
+        padding:20px;
+    }
+}
+
+
   
