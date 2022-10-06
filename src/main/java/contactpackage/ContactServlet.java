@@ -33,7 +33,10 @@ public class ContactServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doGet(request, response);
+		//doGet(request, response);
+			String name  =request.getParameter("Your Name");
+			String email = request.getParameter("Your E-mail");
+			String message = request.getParameter("Your Message");
 	}
 
 }
