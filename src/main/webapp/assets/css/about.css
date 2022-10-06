@@ -94,3 +94,41 @@ nav .fa{
 .text-box h1{
     font-size: 140px;
 }
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 53px; 
+    color: white;
+    line-height: 1;
+}
+
+nav .fa{
+    display: none;
+
+}
+
+.headed {
+    font-size: 60px;
+}
+
+.ifyou{
+    font-size: 36px;
+    line-height: 36px;
+}
+
+
+
+
+.container{
+    width: 85%;
+    background: rgb(252, 111, 111);
+    border-radius: 6px;
+    padding: 20px 188px 30px 40px ;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .container .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
