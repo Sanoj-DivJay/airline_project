@@ -76,3 +76,21 @@ nav .fa{
     display: none;
      
 }
+.head1{
+    width: 550px;
+    
+
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 140px;
+}
