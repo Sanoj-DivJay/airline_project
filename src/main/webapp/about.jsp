@@ -78,7 +78,18 @@
       <div class="story">  
        <p>IATA is the leader and regulator of world airline industry. Apart from keeping the industry fare and competitive, the entity credits travel agents with professional credentials. This also ensures protection of travelers. Any ticket purchase through IATA accredited agents are vouched by IATA itself. IATA Accreditation validates our reliability, professionalism and quality. It also ensures the authenticity of every purchase and prioritizes consumer protection.</p>
       </div>
-    
+      
+      
+       
+    </div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="assets/img/civil.png">
+      </div>
+      <h3>Civil Aviation</h3>
+      <div class="story"> 
+      <p>To facilitate through strategic planning and effective regulation, the operation of a safe, secure and efficient national civil aviation industry that conforms to International Standards and Recommended Practices. fulfillment of the State’s international obligations in the field of civil aviation and constant implementation and enforcement of International Standards and Recommended Practices registering very high level of effective implementation of SARPS.</p></div>
+    </div>
 
 
 
