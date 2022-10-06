@@ -35,6 +35,21 @@
                
             </div>
         </section>
+        
+         <div class="container9">
+
+    <h1 class="head">AWARDS AND RECOGNITIONS</h1>
+    <h5 class="heading4">A thought became an idea became a travel evolution in the small island nation of Sri Lanka. Here we celebrate our accomplishments with everyone to be inspired at how powerful a thought, idea and evolution can be.</h5>
+
+    <div class="box-container3">
+
+        <div class="box3">
+              <img src="assets/img/award1.png">
+            <h3>Best website</h3>
+            <a href="https://www.01awards.lk/"  target="_blank" class="btn">Read /More</a>
+        </div>
+        
+    
 
 
 
