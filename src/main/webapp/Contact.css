@@ -127,4 +127,26 @@ body{
 	cursor:pointer;
 	transition:0.3s;
 	transition-property:background;	
+}
+
+.contact-form .send-btn:hover{
+	background: #0582E3;
+}
+
+@media screen and (max-width:950px){
+	.contact-section{
+	 	flex-direction: colum;
+	 }
+
+	.contact-info, .contact-form{
+		margin:30px 50px;
+	}
+
+	.contact-form h2{
+		font-size:30px;
+	}
+	
+	.contact-form .text-box{
+		width:100%
+	}
 }	
