@@ -86,7 +86,7 @@ public class staffregistration extends HttpServlet {
          }
          else
             out.println("reg unsuccessfull"); 
-         response.sendRedirect("index.jsp"); 
+         response.sendRedirect("signin.jsp"); 
          
          }
          catch(Exception e)

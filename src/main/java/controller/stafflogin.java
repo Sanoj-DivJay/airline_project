@@ -87,7 +87,7 @@ public class stafflogin extends HttpServlet {
         else
         {
         out.println("<p>incorrect details </p>");
-         RequestDispatcher rs = request.getRequestDispatcher("index.jsp");
+         RequestDispatcher rs = request.getRequestDispatcher("signin.jsp");
          rs.include(request, response);
         }
         
@@ -115,7 +115,7 @@ public class stafflogin extends HttpServlet {
         else
         {
         out.println("<p>incorrect details </p>");
-         RequestDispatcher rs = request.getRequestDispatcher("index.jsp");
+         RequestDispatcher rs = request.getRequestDispatcher("signin.jsp");
          rs.include(request, response);
         }
         

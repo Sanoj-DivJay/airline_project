@@ -19,10 +19,7 @@ import java.sql.SQLException;
 import java.util.List;
 import model.dbconnect;
 
-/**
- *
- * @author IS Rachinthana
- */
+
 
 public class cookieverify {
 

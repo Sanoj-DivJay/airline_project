@@ -89,12 +89,12 @@ public class userregistration extends HttpServlet {
          dbconnect con=new dbconnect();
          boolean rslt=con.regUser(uname,fullname,email,password);
          if (rslt==true){
-         response.sendRedirect("index.jsp"); 
+         response.sendRedirect("signin.jsp"); 
          out.println("Reg Successfull");
          }
          else
             out.println("reg unsuccessfull"); 
-         response.sendRedirect("index.jsp"); 
+         response.sendRedirect("signin.jsp"); 
          
          }
          catch(Exception e)
