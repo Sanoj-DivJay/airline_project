@@ -59,6 +59,8 @@
     <div class="container d-flex align-items-center">
 
       <img src="assets/img/logo.png" class="logo me-auto">
+      
+     
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -80,14 +82,14 @@
       </nav>
       </div>
   </header>
+  
 
-      
-  <video autoplay muted loop id="myVideo">
+
         
-    <source src="assets/images/Singapore Changi Airport Jewel Cinematic Film Sony A6500_1080p.mp4" type="video/mp4"><!--background video source-->
-    Your browser does not support HTML5 video.
+    <!--background video source-->
+   
     
-  </video>
+
    
   <div class="cont">
     <div class="form sign-in">
