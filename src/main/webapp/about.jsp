@@ -37,7 +37,7 @@
 
                     </p>
             </nav>
-  <img src="assets/img/wall01.png">        </section>
+  <img src="assets/img/wall2.png">        </section>
 
 
 
