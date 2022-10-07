@@ -40,16 +40,16 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link" href="about.jsp">About</a></li>
           <li><a class="nav-link scrollto" href="home.jsp">Flights</a></li>
           <li><a class="nav-link   scrollto" href="Contact.jsp">Contact</a></li>
           <li class="dropdown"><a href="#"><span>My Account</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li class="dropdown"><a href="signin.jsp"><span>Sign In</span> <i class="bi bi-chevron-right"></i></a>
-              <li class="dropdown"><a href="#"><span>Register</span> <i class="bi bi-chevron-right"></i></a>
-              <li class="dropdown"><a href="#"><span>Flight</span> <i class="bi bi-chevron-right"></i></a>
-              <li class="dropdown"><a href="#"><span>My Bookings</span> <i class="bi bi-chevron-right"></i></a>
-              <li class="dropdown"><a href="#"><span>Reserve</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="signin.jsp"><span>Register</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="home.jsp"><span>Flight</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="home.jsp"><span>My Bookings</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="home.jsp"><span>Reserve</span> <i class="bi bi-chevron-right"></i></a>
             </ul>
           </li>
         </ul>
