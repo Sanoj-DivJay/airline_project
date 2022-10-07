@@ -63,10 +63,10 @@
           <li class="dropdown"><a href="#"><span>My Account</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li class="dropdown"><a href="signin.jsp"><span>Sign In</span> <i class="bi bi-chevron-right"></i></a>
-              <li class="dropdown"><a href="#"><span>Register</span> <i class="bi bi-chevron-right"></i></a>
-              <li class="dropdown"><a href="#"><span>Flight</span> <i class="bi bi-chevron-right"></i></a>
-              <li class="dropdown"><a href="#"><span>My Bookings</span> <i class="bi bi-chevron-right"></i></a>
-              <li class="dropdown"><a href="#"><span>Reserve</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="signin.jsp"><span>Register</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="home.jsp"><span>Flight</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="home.jsp"><span>My Bookings</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="home.jsp"><span>Reserve</span> <i class="bi bi-chevron-right"></i></a>
             </ul>
           </li>
         </ul>
