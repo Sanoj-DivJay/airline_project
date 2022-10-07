@@ -82,13 +82,12 @@
    <div class="swiper home-slider">
 
       <div class="swiper-wrapper">
-         <div class="swiper-slide slide" style="background:url(assets/images/d11ecd025a3d3a8b90f62c6e42039d316f67d8d91bb661bd126bb018ed5de31b44f05391db96f91431ba42bb35d9ab5c30fcc75150cd5a9707020d_1280.jpg) no-repeat">
-            <div class="content">
-               <span>explore, discover, travel</span>
+         <div class="swiper-slide slide" style="background:url(assets/images/airplane-4974678.jpg) no-repeat">
+              <!--  <span>explore, discover, travel</span>
                <h3>travel around the world</h3>
-               <a href="https://world-tour.in/" class="btn">discover more</a>
+               <a href="https://world-tour.in/" class="btn">discover more</a>-->
             </div>
-         </div>
+         <!-- </div>
          <div class="swiper-slide slide" style="background:url(assets/images/img4.jpg) no-repeat">
             <div class="content">
                <span>explore, discover, travel</span>
@@ -134,7 +133,7 @@
                <h3>discover new places</h3>
                <a href="https://world-tour.in" class="btn">discover more</a>
             </div>
-         </div>
+         </div>-->
         
          
       </div>
