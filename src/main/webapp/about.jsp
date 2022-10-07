@@ -5,7 +5,7 @@
 <head>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ABOUT US</title>
-        <link rel="stylesheet" href="About us.css">
+        <link rel="stylesheet" href="About.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Supermercado+One&display=swap" rel="stylesheet">
