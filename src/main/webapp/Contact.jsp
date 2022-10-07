@@ -77,7 +77,9 @@
   </header>
    
 		<div class="contact-section">
+		
 		<div class="contact-info">
+		
 		<h1>Contact Us...</h1>
 		
 		<p>Currently we don't operate a physical location <br>where customers could visit due to covid situation<br> and we also don't accept cash Payments..</p>

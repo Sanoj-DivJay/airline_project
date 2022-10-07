@@ -49,6 +49,8 @@ h6 {
   font-family: "Jost", sans-serif;
 }
 
+
+
 html{
    font-size: 50.5%;
    overflow-x: hidden;
@@ -447,8 +449,17 @@ section{
    margin-bottom: 3rem;
    font-size: 6rem;
    text-transform: uppercase;
-   color:var(--black);
+   color:var(--black);   
 }
+
+.heading-titles h1{
+   text-align: center;
+   margin-bottom: 3rem;
+   font-size: 7rem;
+   text-transform: uppercase;
+   color:var(--white);
+}
+
 .heading-title1{
    text-align: center;
    margin-bottom: 4rem;
