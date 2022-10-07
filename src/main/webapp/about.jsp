@@ -20,16 +20,7 @@
  <section class="header">
             <nav>
               
-                <div class="nav-links" id="navLinks">
-                    <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i>
-                    <ul>
-                        <li><a href="home.html">HOME</a></li>
-                        <li><a href="our work.html">OUR WORK</a></li>
-                        <li><a href="about us.html">ABOUT US</a></li>
-                        <li><a href="news.html">NEWS</a></li>
-                        <li><a href="donate.html">DONATE</a></li>
-                    </ul>
-                </div>
+                
                 <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
                 <div class="text-box">
                     <h1>Who We Are</h1>
