@@ -529,4 +529,29 @@ body{
   padding: 12px;
 }
 
+
+
+
+.footer top {
+  font-size: 14px;
+  background: #37517e;
+}
+
+.footer-newsletter {
+  padding: 50px 0;
+  background: #f3f5fa;
+  text-align: center;
+  font-size: 15px;
+  color: #444444;
+}
+
+.footer-newsletter h4 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  color: #37517e;
+}
+
   
