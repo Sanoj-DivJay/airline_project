@@ -38,8 +38,8 @@ cookieverify obj=new cookieverify();
   <head>
     <meta charset="UTF-8">
     <title>Staff G2 Dashboard</title>
-    <link rel="stylesheet" href="./css/rooms.css">
-    <link rel="stylesheet" href="./css/table.css">
+    <link rel="stylesheet" href="assets/css/rooms.css">
+    <link rel="stylesheet" href="assets/css/table.css">
    
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
@@ -112,7 +112,7 @@ cookieverify obj=new cookieverify();
         <i class='bx bx-search' ></i>
       </div>
       <div class="profile-details">
-        <img src="images/profile.jpg" alt="">
+        <img src="assets/images/profile.jpg" alt="">
         <span class="admin_name"><%out.print(uname);%></span>
         <i class='bx bx-chevron-down' ></i>
       </div>
