@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package controller;
+package usercontriller;
+
+
 
 import java.io.IOException;
 
-
-import java.io.IOException;
 import java.io.PrintWriter;
 
 import jakarta.servlet.RequestDispatcher;
@@ -24,7 +24,8 @@ import java.util.List;
 
 import model.dbconnect;
 
-public class randomticketidgen extends HttpServlet {
+
+public class userdashprofile extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -43,10 +44,10 @@ public class randomticketidgen extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet randomticketidgen</title>");            
+            out.println("<title>Servlet userdashprofile</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet randomticketidgen at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet userdashprofile at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -78,43 +79,10 @@ public class randomticketidgen extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        //processRequest(request, response);
-         response.setContentType("text/html;charset=UTF-8");
-         PrintWriter out=response.getWriter();
-         
-         String ticketid =request.getParameter("ticketid");
-         String flightid =request.getParameter("flightid");
-         String uname =request.getParameter("uname");
-      
-         
-         try
-         {
-         dbconnect con=new dbconnect();
-         boolean rslt=con.ticketIDgen(ticketid,flightid,uname);
-         if (rslt==true)
-         {
-             
-         response.sendRedirect("userprofile.jsp"); 
-        out.println("reg successfull"); 
-         }
-         else
-         {
-            out.println("reg unsuccessfull"); 
-         response.sendRedirect("autogenarateticketID.jsp"); 
-         
-         }
-         }
-         catch(Exception e)
-         {
-             e.printStackTrace();
-         }
+        processRequest(request, response);
     }
 
-    /**
-     * Returns a short description of the servlet.
-     *
-     * @return a String containing servlet description
-     */
+   
     @Override
     public String getServletInfo() {
         return "Short description";
