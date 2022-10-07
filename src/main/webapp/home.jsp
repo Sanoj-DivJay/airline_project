@@ -84,7 +84,7 @@
       <div class="swiper-wrapper">
          <div class="swiper-slide slide" style="background:url(assets/images/airplane-4974678.jpg) no-repeat">
          
-         <h1 class="heading-titles">Explore the beauty of<br>journey</h1>
+         <h1 class="heading-title">Explore the beauty of<br>journey</h1>
               <!--  <span>explore, discover, travel</span>
                <h3>travel around the world</h3>
                <a href="https://world-tour.in/" class="btn">discover more</a>-->

@@ -66,7 +66,7 @@
         <ul>
           <li><a class="nav-link" href="index.jsp">Home</a></li>
           <li><a class="nav-link" href="#about">About</a></li>
-          <li><a class="nav-link active" href="home.jsp">Flights</a></li>
+          <li><a class="nav-link" href="home.jsp">Flights</a></li>
           <li><a class="nav-link" href="Contact.jsp">Contact</a></li>
           <li class="dropdown"><a href="#"><span>My Account</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
