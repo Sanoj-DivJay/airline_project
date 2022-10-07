@@ -56,6 +56,43 @@ cookieverify obj=new cookieverify();
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     </head>
 <body>
+        <section>
+  <div class="box-container">
+        <h3>Booking reserve Your Seat Successfully!!</h3>
+        <div class="row">
+    <div class="col-sm-4">
+        <form method="post" action="./randomticketidgen">
+            <div align="left">
+                <p>Your Ticket ID Number is Generating.. </p>
+            </div>
 
+            <div align="left">
+                <label>Your Ticket Number:</label>
+                <input type="text" class="form-control" name="ticketid"  style=" font-size: 16px; color: blue; font-weight: bold; "  value="<% out.print("TI" + Math.random());%>">
+            </div>
+
+
+            <div align="left">
+                <label>Flight ID</label>
+                <input type="text" class="form-control" name="flightid">
+            </div>
+
+
+            <div align="left">
+                <label>User Name</label>
+                <input type="text" class="form-control" name="uname" style=" font-size: 16px; color: blue; font-weight: bold;" value= "<% out.print(uname);%>" >
+            </div>
+
+            <br>
+
+            <div align="left">
+                <input type="submit" value="Save Your Ticket Details" class="btn btn-success">
+            </div>
+        </form>
+    </div>
+</div>
+            
+  </div>          
+        </section>
 </body>
 </html>
