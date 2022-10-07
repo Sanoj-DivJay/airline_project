@@ -68,7 +68,7 @@
           <h1>Your Wings Already</br> Exists!</h1>
           <h2>Fly with Phoenix Airlines & Make your</br>travel cheaper.</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#about" class="btn-get-started scrollto">Search flight</a>
+            <a href="home.jsp" class="btn-get-started scrollto">Search flight</a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
