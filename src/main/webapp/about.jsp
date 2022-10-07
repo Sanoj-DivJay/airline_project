@@ -20,7 +20,16 @@
  <section class="header">
             <nav>
               
-                
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="our work.html">OUR WORK</a></li>
+                        <li><a href="about us.html">ABOUT US</a></li>
+                        <li><a href="news.html">NEWS</a></li>
+                        <li><a href="donate.html">DONATE</a></li>
+                    </ul>
+                </div>
                 <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
                 <div class="text-box">
                     <h1>Who We Are</h1>
@@ -39,7 +48,7 @@
                          <img src="assets/img/test02.png">
                     </div>
                     <div class="details">
-                        <h3>Mission</h3>
+                        <h3>Our Mission</h3>
                         <p>To provide our customers with a dependable and enjoyable travel experience that embodies Sri Lankan warmth and hospitality. We work hard to live up to the expectations of our stakeholders as a capable, proactive, and conscientious business that is also financially viable.</p>
                         
                     </div>
@@ -49,7 +58,7 @@
                        <img src="assets/img/test01.png">
                     </div>
                     <div class="details">
-                        <h3>Vision</h3>
+                        <h3>Our Vision</h3>
                         <p>being the airline with the best customer service in the world</p>
                     </div>
                 </div>
@@ -67,7 +76,7 @@
         <div class="box3">
               <img src="assets/img/award1.png">
             <h3>Best website</h3>
-            <a href="https://www.01awards.lk/"  target="_blank" class="btn">Read /More</a>
+            <a href="https://www.01awards.lk/"  target="_blank" class="btn">Read More</a>
         </div>
            <div class="box3">
             <img src="assets/img/award2.png">
