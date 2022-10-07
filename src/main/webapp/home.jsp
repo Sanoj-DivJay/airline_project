@@ -17,6 +17,24 @@
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="assets/css/style_home.css">
+   <link href="assets/css/style.css" rel="stylesheet">
+   
+   <link href="" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+
 
 
       <script type="text/javascript">
@@ -31,24 +49,31 @@
 </head>
 
 <body>
-<section class="header">
+ <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
 
-   <a href="#home" class="logo"><img src="assets/images/445.png" style="height: 50px; width: 150px;"></a>
+      <img src="assets/img/logo.png" class="logo me-auto">
 
-   <nav class="navbar">
-         
-         <a href="#home">Home</a>
-         <a href="#1">Book a flight</a>
-         <a href="#2">Flight Status</a>
-         <a href="userprofile.jsp">Profile</a>
-         <a href="index.jsp" class="signout-btn" style="color: white;">Sign Out</a>
-      
-   </nav>
-
-   <div id="menu-btn" class="fas fa-bars"></div>
-
-</section>
-<!-- header section ends -->
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link" href="index.jsp">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link active" href="home.jsp">Flights</a></li>
+          <li><a class="nav-link" href="Contact.jsp">Contact</a></li>
+          <li class="dropdown"><a href="#"><span>My Account</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li class="dropdown"><a href="signin.jsp"><span>Sign In</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="#"><span>Register</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="#"><span>Flight</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="#"><span>My Bookings</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="#"><span>Reserve</span> <i class="bi bi-chevron-right"></i></a>
+            </ul>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      </div>
+  </header>
    
 <!-------------------------- home section starts  ------------------------------>
 <div id="home">
@@ -122,54 +147,6 @@
 </section>
 </div>
 <!-- home section ends -->
-
-
-<!------------------------- home packages section starts  ------------------------------>
-
-<section class="home-packages" name="s1">
-
-   <h1 class="heading-title"> offers </h1>
-
-   <div class="box-container">
-
-      <div class="box">
-         <div class="image">
-            <img src="assets/images/img12.jpg" alt="">
-         </div>
-         <div class="content">
-            <h3>Enjoy a rewarding stay</h3>
-            <p>Book hotels from a variety of choices while collecting many loyalty points</p>
-            <a href="https://www.yamu.lk/trending/top-25-beach-hotels-in-sri-lanka/" class="btn2">book now</a>
-         </div>
-      </div>
-
-      <div class="box">
-         <div class="image">
-            <img src="assets/images/img-7.jpg" alt="">
-         </div>
-         <div class="content">
-            <h3>Couple packages</h3>
-            <p>Enjoy to the fullest with your loved ones with many discounts</p>
-            <a href="https://www.youth-hostel.si/en/travelogues/LK?linksubid=PPC-ANG_Travel&gclid=Cj0KCQjwm6KUBhC3ARIsACIwxBg_zP0EJ_37o9dh6XZq4Fl1O4SxaJXWF_yoFe7KxsJw0uhVbydZERYaAopAEALw_wcB" class="btn2">book now</a>
-         </div>
-      </div>
-      
-      <div class="box">
-         <div class="image">
-            <img src="assets/images/img11.jpg" alt="">
-         </div>
-         <div class="content" >
-            <h3 >adventure & tour</h3>
-            <p>Travel to your favourite palces and make new experiences with our new packages </p>
-            <a href="https://www.viator.com/Negombo/d33888-ttd/p-152965P2?m=28353&supag=71427121115&supca=1939178107&supsc=dsa-648510825722&supai=420120885966&supdv=c&supnt=g&suplp=1009919&supli=&supti=dsa-648510825722&tsem=true&supci=dsa-648510825722&supap1=&supap2=&gclid=Cj0KCQjwm6KUBhC3ARIsACIwxBgl_3z-cXARY0ha1IJWZVPfQofqOJOI4kwPgRUKrUpOihjj8j8mcisaAiHmEALw_wcB" class="btn2"  id="1">book now</a>
-         </div>
-      </div>
-   </div>
-   
-</section>
-<!-- home packages section ends -->
-   
-   
 
 <!------------------------------------- book a flight section starts  ----------------------------------->
 
@@ -274,10 +251,12 @@ color: var(--light-black);
                            </div>
                         </div>
                         
-                     <center>
-        <input type="submit" value="search" class="btn3" name="send">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-         <input type="rest" value="cancle" class="btn3" name="delete" id="2">
-     </center> 
+				
+				 
+        <input type="submit" value="search" class="btn3" name="send">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="rest" value="cancle" class="btn3" name="delete" id="2">
+   				
        </div>
    </form>
 </section>
@@ -285,7 +264,7 @@ color: var(--light-black);
 
 
 
-      <script src="js/jquery.min.js"></script>
+      <script src="assets/js/jquery.min.js"></script>
          <script>
             $('.form-control').each(function () {
                floatedLabel($(this));
@@ -340,10 +319,10 @@ color: var(--light-black);
           </div>  
       </div>
       <div class="inputBox">
-     <center>
+
         <input type="submit" value="search" class="btn3" name="send">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
          <input type="reset" value="cancle" class="btn3" name="delete">
-     </center> 
+    
       </div>
    </form>
 </section>
@@ -371,115 +350,59 @@ color: var(--light-black);
 
 <!-- flight status section ends -->
 
-
- <section class="home">
-
-         <div class="swiper-slide slider" style="background:url(assets/images/icon-9.jpg) no-repeat">
-            <div class="con">
-               <h3>Best offers with Phoenix Airlines</h3>
-               <h5>Discover a range of package deals with us including hotel offers</h5><h5> Special rates for charter flights,yachts and exclusive spas</h5>
-               <a href="https://www.sotc.in/world-tour-packages" class="btn">find more</a>
-            </div>
-         
-   </div>
- </section>        
-
-<!-- services section starts  -->
-
-<section class="services">
-
-   <h1 class="heading-title"> our services </h1>
-
-   <div class="box-container">
-
-      <a href=""><div class="box">
-         <img src="assets/images/icon-8.png" alt="">
-         <h3>support</h3>
-      </div></a>
-      <a href="#1"><div class="box">
-         <img src="assets/images/icon-7.png" alt="" >
-         <h3>flight booking</h3>
-      </div></a>
-      <a href="#2"><div class="box">
-         <img src="assets/images/icon-10.png" alt="">
-         <h3>check status</h3>
-      </div></a>
-
-      <a href="https://www.wildlifetourssrilanka.com"><div class="box">
-         <img src="assets/images/icon-2.png" alt="">
-         <h3>tour guide</h3>
-      </div></a>
-
-      
-
-      
-
-   </div>
-
-</section>
-
-<!-- services section ends -->
-
-
-<!------------------------- home offer section starts  ----------------------------------------->
-
-<section class="home-offer">
-   <div class="content">
-      <h3>upto 25% off</h3>
-      <p>Inflight duty free pre orders will be entitled for upto 25% discount! Search now and and enjoy more offers from Phoenix Airline. Valid till 31st of december.</p>
-      <a href="#1" class="btn4">book now</a>
-   </div>
-</section>
-
-<!-- home offer section ends -->
-
-
-
+ 
 <!------------------------------- footer section starts  ----------------------------------------->
 
+  <footer id="footer">
 
-<section class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
 
-   <div class="box-container">
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Phoenix</h3>
+            <p>
+              50A Mount Lavinia <br>
+              Colombo 03<br>
+              Sri Lanka <br><br>
+              <strong>Phone:</strong> +332 236 671<br>
+              <strong>Email:</strong> info@phoenixairlines.com<br>
+            </p>
+          </div>
 
-      <div class="box">
-         <h3>About us</h3>
-          <p class="p1">At Phonex airlines, we believe in putting our extensive resources to good use by contributing to the communities we touch. Through our philanthrophic efforts and local presence, we're working to better the lives of those around us.</p>
-              
-              <p class="p1">Contact Number: 078-5568889</p> 
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Flights</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>You can follow us in any of the above social networks as you preferred. </p>
+            <div class="social-links mt-3">
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
       </div>
+    </div>
 
-      <div class="box">
-         <h3>quick links</h3>
-         <a href="#home"> <i class="fas fa-angle-right"></i> home</a>
-         <a href="#1"> <i class="fas fa-angle-right"></i> book a flight</a>
-         <a href="#2"> <i class="fas fa-angle-right"></i> flight status</a>
-         <a href="#profile"> <i class="fas fa-angle-right"></i> profile</a>
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>PhoenixAirlines</span></strong>. All Rights Reserved
       </div>
-
-      <div class="box">
-          <h3>Services</h3>
-         <a href="https://www.holidaypark.lk"> <i class="fas fa-angle-right"></i> Sri lankan holidays</a>
-         <a href="https://lk.lakpura.com/pages/food"> <i class="fas fa-angle-right"></i> sri lankan catering</a>
-         <a href="#"> <i class="fas fa-angle-right"></i> online chat support</a>
-      </div>
-
-      <div class="box">
-         <h3>follow us</h3>
-         <a href="https://www.facebook.com"> <i class="fab fa-facebook-f"></i> facebook </a>
-         <a href="https://twitter.com/i/flow/login"> <i class="fab fa-twitter"></i> twitter </a>
-         <a href="https://www.instagram.com/accounts/login/"> <i class="fab fa-instagram"></i> instagram </a>
-         <a href="https://www.linkedin.com/login"> <i class="fab fa-linkedin"></i> linkedin </a>
-      </div>
-
-   </div>
-   <div >
-              <a href="#home"><center><img src="./images/navlogopng.png" height="70px" width="155px"></center></a>
-            </div> 
-
-   <div class="credit"> 2022 &#169; Sri Lankan IT Systems </div>
-
-</section>
+    </div>
+  </footer><!-- End Footer -->
+  
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 <!-- footer section ends -->
 
@@ -488,6 +411,15 @@ color: var(--light-black);
 
 <!-- custom js file link  -->
 <script src="assets/js/js_home.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  
+  <script src="assets/js/main.js"></script>
 
 
 
