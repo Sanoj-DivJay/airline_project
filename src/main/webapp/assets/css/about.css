@@ -654,4 +654,75 @@ body{
   padding-top: 0;
 }
 
+
+.footer-top .footer-links ul a {
+  color: #777777;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+.footer-top .footer-links ul a:hover {
+  text-decoration: none;
+  color: #47b2e4;
+}
+
+.footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #47b2e4;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+.footer-top .social-links a:hover {
+  background: #209dd8;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+.copyright {
+  float: left;
+}
+
+.credits {
+  float: right;
+  font-size: 13px;
+}
+
+.credits a {
+  transition: 0.3s;
+}
+
+.media (max-width: 768px) {
+ .footer-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+
+  .footer .copyright,
+  .footer .credits {
+    text-align: center;
+    float: none;
+  }
+
+  .footer .credits {
+    padding-top: 4px;
+  }
+
+
+
   
