@@ -442,4 +442,45 @@ img{
 }
 
 
+/*AWARDS AND RECOGNITIONS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background:linear-gradient(45deg, blueviolet, lightgreen);
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+
+
+.wrapper1{
+  margin-top: 10%;
+}
+
+.wrapper1 h1{
+  
+  font-size:102px;
+  margin-bottom: 60px;
+  text-align: center;
+   color: #fff;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+  color: #ffaf03;
+}
   
